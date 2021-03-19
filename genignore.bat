@@ -1,0 +1,1 @@
+python <PATH_TO_REPO>/generate.py %*
