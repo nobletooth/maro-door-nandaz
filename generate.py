@@ -29,7 +29,7 @@ async def fetch_gitignore_file(technologies: List[str]) -> str:
 def clean_gitignore_file(content: str) -> str:
     print('[OPERATION] cleaning file content...')
     lines = content.split('\n')
-    return '\n'.join(lines[3:-1])
+    return '\n'.join(lines[3:-2])
 
 
 def save_gitignore_file(content: str) -> None:
